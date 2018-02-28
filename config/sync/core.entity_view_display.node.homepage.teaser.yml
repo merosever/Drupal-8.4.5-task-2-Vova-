@@ -1,0 +1,21 @@
+uuid: 5ade9e1c-fffd-46d2-bf10-0db13236fdbd
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage.field_paragraf_homepage
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.teaser
+targetEntityType: node
+bundle: homepage
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_paragraf_homepage: true
+  langcode: true

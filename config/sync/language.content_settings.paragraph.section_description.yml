@@ -1,0 +1,16 @@
+uuid: e6d1e465-a4a6-4e51-8fa9-e14271675918
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_description
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: paragraph.section_description
+target_entity_type_id: paragraph
+target_bundle: section_description
+default_langcode: site_default
+language_alterable: true

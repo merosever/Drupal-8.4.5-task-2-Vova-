@@ -1,0 +1,24 @@
+uuid: 99afda51-16cf-4b55-8dc2-2d2d0309bed0
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_banner_background.field_image_
+    - paragraphs.paragraphs_type.section_banner_background
+  module:
+    - image
+id: paragraph.section_banner_background.default
+targetEntityType: paragraph
+bundle: section_banner_background
+mode: default
+content:
+  field_image_:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

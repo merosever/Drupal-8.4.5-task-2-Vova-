@@ -1,0 +1,9 @@
+uuid: 50aa5c8a-787a-4d1d-b299-581be8d00640
+langcode: uk
+status: true
+dependencies: {  }
+id: section_4_cards_ip
+label: 'Section 4 cards IP'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

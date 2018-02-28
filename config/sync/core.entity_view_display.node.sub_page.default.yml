@@ -1,0 +1,29 @@
+uuid: e1f75fcf-8252-4714-b07b-2037aa7252fd
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.sub_page.field_paragraf_subpage
+    - node.type.sub_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.sub_page.default
+targetEntityType: node
+bundle: sub_page
+mode: default
+content:
+  field_paragraf_subpage:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

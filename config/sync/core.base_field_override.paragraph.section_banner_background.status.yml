@@ -1,0 +1,22 @@
+uuid: 9b406d7b-e547-4a73-bac1-b61d515bfd63
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_banner_background
+id: paragraph.section_banner_background.status
+field_name: status
+entity_type: paragraph
+bundle: section_banner_background
+label: Опубликовано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

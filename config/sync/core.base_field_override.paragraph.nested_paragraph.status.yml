@@ -1,0 +1,22 @@
+uuid: f09d44a3-1074-4917-9f0c-e674f16c5c7b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.nested_paragraph
+id: paragraph.nested_paragraph.status
+field_name: status
+entity_type: paragraph
+bundle: nested_paragraph
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

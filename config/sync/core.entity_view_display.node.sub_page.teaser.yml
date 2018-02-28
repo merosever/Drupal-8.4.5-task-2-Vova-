@@ -1,0 +1,21 @@
+uuid: 24400ea7-a4c7-46de-b400-9db7273edd62
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sub_page.field_paragraf_subpage
+    - node.type.sub_page
+  module:
+    - user
+id: node.sub_page.teaser
+targetEntityType: node
+bundle: sub_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_paragraf_subpage: true
+  langcode: true

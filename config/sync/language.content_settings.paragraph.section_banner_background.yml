@@ -1,0 +1,16 @@
+uuid: 56b0112e-5a84-4537-b91d-d6d512a1595f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_banner_background
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: paragraph.section_banner_background
+target_entity_type_id: paragraph
+target_bundle: section_banner_background
+default_langcode: site_default
+language_alterable: true

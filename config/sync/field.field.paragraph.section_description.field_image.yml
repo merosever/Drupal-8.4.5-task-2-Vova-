@@ -1,0 +1,45 @@
+uuid: fda2c540-76ba-4910-aeb1-89c71e9b574e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image
+    - paragraphs.paragraphs_type.section_description
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: paragraph.section_description.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: section_description
+label: image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 463d711b-5db7-4c6d-8280-704306c0f445
+    alt: image
+    title: image
+    width: 604
+    height: 403
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

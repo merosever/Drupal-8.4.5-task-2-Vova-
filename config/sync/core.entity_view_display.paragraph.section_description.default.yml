@@ -1,0 +1,32 @@
+uuid: 5fed72ed-7496-4afc-bdd0-a34b47be57c0
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_description.field_image
+    - field.field.paragraph.section_description.field_text_area_section_descript
+    - paragraphs.paragraphs_type.section_description
+  module:
+    - image
+id: paragraph.section_description.default
+targetEntityType: paragraph
+bundle: section_description
+mode: default
+content:
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_text_area_section_descript:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

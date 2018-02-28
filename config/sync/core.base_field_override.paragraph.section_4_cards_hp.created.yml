@@ -1,0 +1,18 @@
+uuid: 8a8a531b-ea07-4bd8-bb94-a61033815405
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_4_cards_hp
+id: paragraph.section_4_cards_hp.created
+field_name: created
+entity_type: paragraph
+bundle: section_4_cards_hp
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

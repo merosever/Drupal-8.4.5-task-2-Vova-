@@ -1,0 +1,22 @@
+uuid: ef21a7d6-ac69-4675-8c47-a84de10b9abe
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_4_cards_ip
+id: paragraph.section_4_cards_ip.status
+field_name: status
+entity_type: paragraph
+bundle: section_4_cards_ip
+label: Опубликовано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

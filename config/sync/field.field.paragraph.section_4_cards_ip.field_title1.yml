@@ -1,0 +1,19 @@
+uuid: 319a321f-0b3b-443f-b513-e9774d30db26
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title1
+    - paragraphs.paragraphs_type.section_4_cards_ip
+id: paragraph.section_4_cards_ip.field_title1
+field_name: field_title1
+entity_type: paragraph
+bundle: section_4_cards_ip
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: 96abb595-efea-4509-bc4e-27689e85fdc9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_description
+id: paragraph.section_description.created
+field_name: created
+entity_type: paragraph
+bundle: section_description
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

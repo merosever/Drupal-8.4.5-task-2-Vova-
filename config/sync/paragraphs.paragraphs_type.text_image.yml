@@ -1,0 +1,11 @@
+uuid: ec659c6d-cbe0-4005-9430-ddd2648f9dce
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: J-7pS4Mmv7m9PutVFCiU3gPDwnXT0ozMnEJRmQ4x7AI
+id: text_image
+label: 'Text + Image'
+icon_uuid: null
+description: 'Use <em>Test + Image</em> for adding a text on the left and an image  on the right.'
+behavior_plugins: {  }

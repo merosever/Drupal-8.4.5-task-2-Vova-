@@ -1,0 +1,64 @@
+uuid: bb14916a-827e-42d3-9349-74626cf07fdd
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_4_cards_hp.field_image_section_4_card_hp
+    - field.field.paragraph.section_4_cards_hp.field_link
+    - field.field.paragraph.section_4_cards_hp.field_subtitle
+    - field.field.paragraph.section_4_cards_hp.field_title
+    - field.field.paragraph.section_4_cards_hp.field_wysiwyg_text_area
+    - image.style.large
+    - paragraphs.paragraphs_type.section_4_cards_hp
+  module:
+    - image
+    - link
+id: paragraph.section_4_cards_hp.default
+targetEntityType: paragraph
+bundle: section_4_cards_hp
+mode: default
+content:
+  field_image_section_4_card_hp:
+    weight: 0
+    settings:
+      preview_image_style: large
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_link:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_subtitle:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_wysiwyg_text_area:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

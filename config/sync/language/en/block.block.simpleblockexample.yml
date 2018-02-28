@@ -1,0 +1,4 @@
+settings:
+  label: 'Example of a simple block'
+  textfield: 'My fuild textfield'
+  textarea: 'My fuild textarea'

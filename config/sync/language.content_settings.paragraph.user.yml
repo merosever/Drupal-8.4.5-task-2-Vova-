@@ -1,0 +1,18 @@
+uuid: 2c87a99c-e558-475c-9772-eeb7f1f4c1cf
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.user
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+_core:
+  default_config_hash: 0se0NlfkzTARsbTipTCXQVOSkZGk1b5-eBIcdTSOIls
+id: paragraph.user
+target_entity_type_id: paragraph
+target_bundle: user
+default_langcode: site_default
+language_alterable: false

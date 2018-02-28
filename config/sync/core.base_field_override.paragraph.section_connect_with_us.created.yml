@@ -1,0 +1,18 @@
+uuid: ea3bab20-c226-45f8-9688-70ccb3b54849
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_connect_with_us
+id: paragraph.section_connect_with_us.created
+field_name: created
+entity_type: paragraph
+bundle: section_connect_with_us
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

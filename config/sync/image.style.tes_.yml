@@ -1,0 +1,15 @@
+uuid: 20d1b017-54c4-4dea-8bb7-371058140d18
+langcode: en
+status: true
+dependencies: {  }
+name: tes_
+label: 'tes image style'
+effects:
+  9a8ddeb8-4b8f-45a7-9514-f42662396a2f:
+    uuid: 9a8ddeb8-4b8f-45a7-9514-f42662396a2f
+    id: image_rotate
+    weight: 1
+    data:
+      degrees: 32
+      bgcolor: ''
+      random: true

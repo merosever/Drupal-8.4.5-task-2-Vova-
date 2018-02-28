@@ -1,0 +1,22 @@
+uuid: 38dd50d7-b939-4c48-a5a6-e4f5d8fd7eaf
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_4_cards_hp
+id: paragraph.section_4_cards_hp.status
+field_name: status
+entity_type: paragraph
+bundle: section_4_cards_hp
+label: Опубликовано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

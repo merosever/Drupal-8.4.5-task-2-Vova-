@@ -1,0 +1,16 @@
+uuid: 23b4f0a8-1388-4015-9b05-b04ad2d3bd43
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.article_page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.article_page
+target_entity_type_id: node
+target_bundle: article_page
+default_langcode: site_default
+language_alterable: true

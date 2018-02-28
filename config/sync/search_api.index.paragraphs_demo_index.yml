@@ -1,0 +1,35 @@
+uuid: a2cc1ca2-74ba-4310-a1ff-5fe6a9cff587
+langcode: uk
+status: true
+dependencies:
+  config:
+    - search_api.server.paragraphs_demo_server
+  module:
+    - search_api
+    - node
+_core:
+  default_config_hash: J9i1ApxG6J7lJzrNlAnZAe1tf9rmNfFPjBUpqIcoLPg
+id: paragraphs_demo_index
+name: 'Paragraphs demo index'
+description: null
+read_only: false
+field_settings: {  }
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  rendered_item: {  }
+  aggregated_field: {  }
+  add_url: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: paragraphs_demo_server

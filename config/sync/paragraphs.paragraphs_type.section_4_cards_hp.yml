@@ -1,0 +1,9 @@
+uuid: d4eb7bfb-e8c0-4ba6-92c0-463da082e64b
+langcode: uk
+status: true
+dependencies: {  }
+id: section_4_cards_hp
+label: 'Section 4 cards HP'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

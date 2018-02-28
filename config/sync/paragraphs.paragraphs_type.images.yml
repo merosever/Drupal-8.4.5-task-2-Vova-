@@ -1,0 +1,11 @@
+uuid: db5e21b6-052f-4707-bc2c-ca510e9afda7
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DGb4aV39gpvoK2px2xeeK4MOLA2FxH4Leq0UZ0en9Fo
+id: images
+label: Images
+icon_uuid: null
+description: 'Use <em>Images</em> for adding one or multiple images.'
+behavior_plugins: {  }

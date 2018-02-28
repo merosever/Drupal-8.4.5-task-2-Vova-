@@ -1,0 +1,41 @@
+uuid: cfbcc5ca-c804-4e15-96b1-3d07641943d3
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_connect_with_us.field_image_section_connect
+    - field.field.paragraph.section_connect_with_us.field_titile
+    - field.field.paragraph.section_connect_with_us.field_wysiwyg_text
+    - paragraphs.paragraphs_type.section_connect_with_us
+  module:
+    - image
+id: paragraph.section_connect_with_us.default
+targetEntityType: paragraph
+bundle: section_connect_with_us
+mode: default
+content:
+  field_image_section_connect:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titile:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_wysiwyg_text:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

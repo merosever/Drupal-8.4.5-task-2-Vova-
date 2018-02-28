@@ -1,0 +1,24 @@
+uuid: 72e81866-309a-4221-8e5a-b07dace8f398
+langcode: ru
+status: true
+dependencies:
+  module:
+    - first_block
+  theme:
+    - bartik
+id: simpleblockexample
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: simple_block_example
+settings:
+  id: simple_block_example
+  label: 'Пример простого блока'
+  provider: first_block
+  label_display: visible
+  textfield: s
+  textarea: s
+  date: '2018-02-28'
+  image: {  }
+visibility: {  }

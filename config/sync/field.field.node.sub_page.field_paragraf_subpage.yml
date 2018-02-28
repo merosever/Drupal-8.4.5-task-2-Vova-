@@ -1,0 +1,69 @@
+uuid: 309053a3-4f44-4c66-ab9f-6b54997d1fbf
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraf_subpage
+    - node.type.sub_page
+    - paragraphs.paragraphs_type.section_4_cards_hp
+    - paragraphs.paragraphs_type.section_4_cards_ip
+    - paragraphs.paragraphs_type.section_banner_background
+    - paragraphs.paragraphs_type.section_connect_with_us
+    - paragraphs.paragraphs_type.section_description
+  module:
+    - entity_reference_revisions
+id: node.sub_page.field_paragraf_subpage
+field_name: field_paragraf_subpage
+entity_type: node
+bundle: sub_page
+label: Paragraf_subpage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      section_banner_background: section_banner_background
+      section_description: section_description
+      section_4_cards_hp: section_4_cards_hp
+      section_4_cards_ip: section_4_cards_ip
+      section_connect_with_us: section_connect_with_us
+    target_bundles_drag_drop:
+      section_banner_background:
+        enabled: true
+        weight: -23
+      section_description:
+        enabled: true
+        weight: -22
+      section_4_cards_hp:
+        enabled: true
+        weight: -21
+      section_4_cards_ip:
+        enabled: true
+        weight: -20
+      section_connect_with_us:
+        enabled: true
+        weight: -19
+      image_text:
+        weight: -18
+        enabled: false
+      images:
+        weight: -17
+        enabled: false
+      nested_paragraph:
+        weight: -16
+        enabled: false
+      text:
+        weight: -15
+        enabled: false
+      text_image:
+        weight: -14
+        enabled: false
+      user:
+        weight: -13
+        enabled: false
+field_type: entity_reference_revisions

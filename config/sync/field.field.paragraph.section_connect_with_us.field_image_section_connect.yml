@@ -1,0 +1,45 @@
+uuid: f57df4cf-23ac-40a8-9ce0-ea5a47b6cd3c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_section_connect
+    - paragraphs.paragraphs_type.section_connect_with_us
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: paragraph.section_connect_with_us.field_image_section_connect
+field_name: field_image_section_connect
+entity_type: paragraph
+bundle: section_connect_with_us
+label: image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 01cc164f-825d-451e-8870-181da4891b28
+    alt: image
+    title: image
+    width: 604
+    height: 403
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

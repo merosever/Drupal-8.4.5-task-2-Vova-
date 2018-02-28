@@ -1,0 +1,55 @@
+uuid: 5b603536-afda-4ea5-8bf7-2ddb2faef5c1
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_4_cards_ip.field_image_field_with_cropping_
+    - field.field.paragraph.section_4_cards_ip.field_link_subpage
+    - field.field.paragraph.section_4_cards_ip.field_title1
+    - field.field.paragraph.section_4_cards_ip.field_wysiwyg_text_area_subpage
+    - paragraphs.paragraphs_type.section_4_cards_ip
+  module:
+    - image
+    - link
+id: paragraph.section_4_cards_ip.default
+targetEntityType: paragraph
+bundle: section_4_cards_ip
+mode: default
+content:
+  field_image_field_with_cropping_:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link_subpage:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_title1:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_wysiwyg_text_area_subpage:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

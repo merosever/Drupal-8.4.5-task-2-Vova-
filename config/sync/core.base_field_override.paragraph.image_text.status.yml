@@ -1,0 +1,22 @@
+uuid: cabbcc7b-2412-4810-baa5-2726fdc37197
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.image_text
+id: paragraph.image_text.status
+field_name: status
+entity_type: paragraph
+bundle: image_text
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

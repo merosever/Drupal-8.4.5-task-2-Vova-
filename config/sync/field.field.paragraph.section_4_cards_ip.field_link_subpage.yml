@@ -1,0 +1,23 @@
+uuid: 46edc197-3b9a-4dcf-8999-70ec35870344
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link_subpage
+    - paragraphs.paragraphs_type.section_4_cards_ip
+  module:
+    - link
+id: paragraph.section_4_cards_ip.field_link_subpage
+field_name: field_link_subpage
+entity_type: paragraph
+bundle: section_4_cards_ip
+label: Ссылка
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

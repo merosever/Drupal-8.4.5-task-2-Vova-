@@ -1,0 +1,19 @@
+uuid: 93b66504-d0ed-49e3-af6c-25b205140b5c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg_text
+    - paragraphs.paragraphs_type.section_connect_with_us
+id: paragraph.section_connect_with_us.field_wysiwyg_text
+field_name: field_wysiwyg_text
+entity_type: paragraph
+bundle: section_connect_with_us
+label: 'WYSIWYG text area'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

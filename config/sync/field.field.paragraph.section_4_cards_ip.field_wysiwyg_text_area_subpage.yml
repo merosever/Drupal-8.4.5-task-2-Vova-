@@ -1,0 +1,19 @@
+uuid: b8ea2c88-7d47-4596-97b0-9d7e80f2ee8e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg_text_area_subpage
+    - paragraphs.paragraphs_type.section_4_cards_ip
+id: paragraph.section_4_cards_ip.field_wysiwyg_text_area_subpage
+field_name: field_wysiwyg_text_area_subpage
+entity_type: paragraph
+bundle: section_4_cards_ip
+label: 'WYSIWYG text area SUBPAGE'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

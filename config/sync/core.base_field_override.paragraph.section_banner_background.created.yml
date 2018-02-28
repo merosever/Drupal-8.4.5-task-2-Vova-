@@ -1,0 +1,18 @@
+uuid: f0c6ccb1-2fae-4a9b-9347-0f988e18a03b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_banner_background
+id: paragraph.section_banner_background.created
+field_name: created
+entity_type: paragraph
+bundle: section_banner_background
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

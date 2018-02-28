@@ -1,0 +1,19 @@
+uuid: f56bf9a6-96f2-48c1-a68b-45d93ff3a949
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg_text_area
+    - paragraphs.paragraphs_type.section_4_cards_hp
+id: paragraph.section_4_cards_hp.field_wysiwyg_text_area
+field_name: field_wysiwyg_text_area
+entity_type: paragraph
+bundle: section_4_cards_hp
+label: 'WYSIWYG text area'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

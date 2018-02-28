@@ -1,0 +1,11 @@
+uuid: 2a8ce1f7-f5c7-4288-9fe4-896b906f7108
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: boOxRvu533PdazqquOAQhGK6j7P-QrZ01_6rKpuO9XM
+id: text
+label: Текст
+icon_uuid: null
+description: 'Use <em>Text</em> for adding a text.'
+behavior_plugins: {  }

@@ -1,0 +1,9 @@
+uuid: d6b3f46b-93fe-4e06-81d3-fed2ad6adaed
+langcode: uk
+status: true
+dependencies: {  }
+id: section_banner_background
+label: 'Section Banner Background Full Screen'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

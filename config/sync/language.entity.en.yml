@@ -1,0 +1,9 @@
+uuid: 765e1cca-7a44-4bdc-ab06-16bf14dbcfdd
+langcode: ru
+status: true
+dependencies: {  }
+id: en
+label: English
+direction: ltr
+weight: -8
+locked: false

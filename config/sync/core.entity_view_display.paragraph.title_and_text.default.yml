@@ -1,0 +1,29 @@
+uuid: ef7c935e-55c8-439a-9367-524ac6c1368e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_and_text.field_text
+    - field.field.paragraph.title_and_text.field_title_
+    - paragraphs.paragraphs_type.title_and_text
+id: paragraph.title_and_text.default
+targetEntityType: paragraph
+bundle: title_and_text
+mode: default
+content:
+  field_text:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_title_:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,27 @@
+uuid: e3118f52-67f0-45bd-bec6-5b8090c164a5
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_banner_background.field_image_
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.section_banner_background
+  module:
+    - image
+id: paragraph.section_banner_background.default
+targetEntityType: paragraph
+bundle: section_banner_background
+mode: default
+content:
+  field_image_:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,9 @@
+uuid: 73292ea7-e0a6-406c-a14e-a41147ef6fcd
+langcode: uk
+status: true
+dependencies: {  }
+id: section_description
+label: 'Section description'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

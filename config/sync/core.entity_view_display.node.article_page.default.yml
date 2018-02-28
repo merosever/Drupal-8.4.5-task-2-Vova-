@@ -1,0 +1,29 @@
+uuid: 95238e60-e36a-497f-bb7f-f714f88f5527
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.article_page.field_paragraf_arcticlepage
+    - node.type.article_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.article_page.default
+targetEntityType: node
+bundle: article_page
+mode: default
+content:
+  field_paragraf_arcticlepage:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

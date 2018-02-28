@@ -1,0 +1,18 @@
+uuid: 42a8e499-892e-49e5-b622-8fb3c069e56b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.images
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+_core:
+  default_config_hash: hIbqbzBY-qhDTpbOAoJfzC1Nxq0IDwjJqjT3QMvV8ds
+id: paragraph.images
+target_entity_type_id: paragraph
+target_bundle: images
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,8 @@
+uuid: 7b56176e-9c9c-431f-a062-64d3514310aa
+langcode: ru
+status: true
+dependencies: {  }
+id: my_custom_format
+label: 'My custom format'
+locked: false
+pattern: j(D)-F-Y

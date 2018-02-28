@@ -1,0 +1,21 @@
+uuid: 062c57bb-5858-4c67-97e4-e227c472348c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article_page.field_paragraf_arcticlepage
+    - node.type.article_page
+  module:
+    - user
+id: node.article_page.teaser
+targetEntityType: node
+bundle: article_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_paragraf_arcticlepage: true
+  langcode: true

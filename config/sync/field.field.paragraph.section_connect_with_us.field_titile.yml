@@ -1,0 +1,19 @@
+uuid: 1fb84f43-850d-4319-bfe0-cf7c687ab20b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titile
+    - paragraphs.paragraphs_type.section_connect_with_us
+id: paragraph.section_connect_with_us.field_titile
+field_name: field_titile
+entity_type: paragraph
+bundle: section_connect_with_us
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

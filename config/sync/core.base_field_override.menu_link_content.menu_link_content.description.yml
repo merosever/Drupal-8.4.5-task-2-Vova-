@@ -1,0 +1,18 @@
+uuid: 9c8ace61-22eb-42ef-bd27-3eb46a3e3553
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.menu_link_content.description
+field_name: description
+entity_type: menu_link_content
+bundle: menu_link_content
+label: Описание
+description: 'Описание, показываемое при наведении мыши на ссылку меню.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

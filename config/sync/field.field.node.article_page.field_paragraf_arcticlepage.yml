@@ -1,0 +1,72 @@
+uuid: c1e10bf9-9678-4dfb-8de9-2ce75d20ea37
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraf_arcticlepage
+    - node.type.article_page
+    - paragraphs.paragraphs_type.section_4_cards_hp
+    - paragraphs.paragraphs_type.section_banner_background
+    - paragraphs.paragraphs_type.section_connect_with_us
+    - paragraphs.paragraphs_type.section_description
+    - paragraphs.paragraphs_type.title_and_text
+  module:
+    - entity_reference_revisions
+id: node.article_page.field_paragraf_arcticlepage
+field_name: field_paragraf_arcticlepage
+entity_type: node
+bundle: article_page
+label: Paragraf_arcticlepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      section_banner_background: section_banner_background
+      section_description: section_description
+      section_4_cards_hp: section_4_cards_hp
+      section_connect_with_us: section_connect_with_us
+      title_and_text: title_and_text
+    target_bundles_drag_drop:
+      section_banner_background:
+        enabled: true
+        weight: -25
+      section_description:
+        enabled: true
+        weight: -24
+      section_4_cards_hp:
+        enabled: true
+        weight: -23
+      section_connect_with_us:
+        enabled: true
+        weight: -22
+      title_and_text:
+        enabled: true
+        weight: -21
+      image_text:
+        weight: -20
+        enabled: false
+      images:
+        weight: -19
+        enabled: false
+      nested_paragraph:
+        weight: -18
+        enabled: false
+      text:
+        weight: -17
+        enabled: false
+      text_image:
+        weight: -16
+        enabled: false
+      user:
+        weight: -15
+        enabled: false
+      section_4_cards_ip:
+        weight: -14
+        enabled: false
+field_type: entity_reference_revisions

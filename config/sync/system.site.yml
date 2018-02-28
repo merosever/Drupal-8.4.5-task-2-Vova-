@@ -1,0 +1,14 @@
+uuid: a71daf00-69a2-4feb-a387-f0316f2f2182
+name: Sites
+mail: soskavtsovvladislav@gmail.ru
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/6
+admin_compact_mode: false
+weight_select_max: 100
+langcode: uk
+default_langcode: ru
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
