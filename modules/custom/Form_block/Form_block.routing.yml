@@ -1,0 +1,5 @@
+Form_block.routing:
+  path: 'mymodule'
+  defaults:
+    _title: 'My module"
+    _controller:

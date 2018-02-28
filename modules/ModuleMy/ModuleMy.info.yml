@@ -1,0 +1,7 @@
+name: ModuleMy
+description: The created my first block.
+core: 8.x
+type: module
+version: 1.0
+dependencies:
+- block
