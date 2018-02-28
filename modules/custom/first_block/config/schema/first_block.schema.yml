@@ -1,0 +1,10 @@
+block.settings.simple_block_example:
+  type: block_settings
+  label: 'Simple block example'
+  mapping:
+    textfield:
+      type: label
+      label: 'My textfield'
+    textarea:
+      type: label
+      label: 'My textarea'
